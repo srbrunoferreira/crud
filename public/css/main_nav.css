@@ -1,0 +1,26 @@
+#main-nav {
+  background-color: #57606f;
+}
+
+#main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 25px 10px;
+}
+
+#main-nav ul li {
+  margin-right: 10px;
+}
+
+#main-nav ul li a {
+  text-decoration: none;
+  color: #f1f2f6;
+  font-family: RalewayLight;
+  letter-spacing: 1px;
+  transition: color 0.2s cubic-bezier(0.45, 0.05, 0.55, 0.95);
+}
+
+#main-nav ul li a:hover {
+  color: #dfe4ea;
+}

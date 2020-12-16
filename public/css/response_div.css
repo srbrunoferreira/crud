@@ -1,0 +1,99 @@
+#response-container {
+  width: 100%;
+  margin-top: 25px;
+}
+
+.response-row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 250px;
+  border-bottom: 1px solid #f1f2f6;
+  margin: 15px 0;
+  padding: 15px 0;
+  animation: show 1s cubic-bezier(0.4, 0, 1, 1) 1;
+}
+
+@keyframes show {
+  from {
+    position: relative;
+    opacity: 0;
+  } to {}
+}
+
+.response-row-column {}
+
+.response-img-container {
+  width: 160px;
+  height: 160px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid #747d8c;
+}
+
+.response-txt-data-container {
+  width: 60%;
+}
+
+.response-img-container img {
+  width: 110%;
+  display: flex;
+}
+
+.response-txt-data {}
+
+.response-txt-data-container td {
+  padding-bottom: 10px;
+  padding-right: 40px;
+}
+
+.response-txt-data-name {
+  font-family: RalewayBold;
+  letter-spacing: 1px;
+}
+
+.response-txt-data {
+  font-family: RalewayMedium;
+  text-transform: uppercase;
+}
+
+.response-btns-container {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid #dfe4ea;
+  padding-left: 15px;
+
+}
+
+.response-btns-container button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 3px;
+  text-transform: uppercase;
+  font-family: RalewayBold;
+  color: white;
+  font-size: 0.85em;
+  cursor: pointer;
+}
+
+.btn-edit-user {
+  background-color: #45aaf2;
+}
+
+.btn-delete-user {
+  background-color: #ff6b81;
+}
+
+.btn-edit-user:hover {
+  background-color: #2d98da;
+}
+
+.btn-delete-user:hover {
+  background-color: #eb3b5a;
+}
